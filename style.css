@@ -1,0 +1,67 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 23rem;
+    background-color:black;
+    padding: .5rem;
+}
+.display{
+    
+    height:14rem;
+    font-size:3rem ;
+    position: relative;
+    color: white;
+}
+.r{
+    position: absolute;
+}
+.main{
+    text-align: right;  
+    color: white;
+    background-color: black;
+    height: 3rem;
+    border: none;
+    width: 100%;
+}
+.res{
+    right: 1rem;
+    bottom: 0;
+    font-size: 2.3rem;
+    /* background-color: aquamarine; */
+    color:rgb(133, 130, 130);
+    margin-bottom: 3.5rem;
+}
+.buttonss{
+    display: grid;
+    column-gap: 5px;
+    row-gap: 15px;
+    place-items: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+}
+button{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    place-items: center;
+    font-size: 1.5rem;
+    width: 90%;
+    height:5.4rem;
+    border-radius: 50%;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(70, 66, 66) ;
+}
+.g{
+    background-color: rgb(108, 100, 100);
+}
+.g:hover{
+    background-color: rgb(154, 151, 151);
+}
+.orange{
+    background-color: orangered;
+}
